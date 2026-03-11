@@ -13,6 +13,7 @@ import uploadRoutes from "./routes/uploadRoutes.js";
 
 // Configuration
 dotenv.config();
+console.log("Mongo URI:", process.env.MONGO_URI);
 connectDB();
 
 const app = express();

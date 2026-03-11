@@ -5,6 +5,9 @@ import store from "./redux/store.js";
 import { Provider } from "react-redux";
 import { Route, RouterProvider, createRoutesFromElements } from "react-router";
 import { createBrowserRouter } from "react-router-dom";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 // Auth
 import AdminRoute from "./pages/Admin/AdminRoute.jsx";
