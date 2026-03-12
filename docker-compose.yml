@@ -20,7 +20,7 @@ services:
       MONGO_URI: mongodb://root:pass@mongodb:27017/?authSource=admin
       NODE_ENV: development
       JWT_SECRET: alskdfjlkasdfjlksa23123asdlfk
-      PORT: 3000
+      POST: 3000
     depends_on:
       - mongodb
 
